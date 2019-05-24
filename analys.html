@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="font-family:Verdana;color:#757171;">
+
+<div style="background-color:#3bb323da;padding:15px;text-align:center;">
+  <h1>Sökordsanalys </h1>
+</div>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+
+/* här har jag tagit bort understrykningen på länkarna*/
+.menu a {
+  background-color:#e5e5e5;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:black;
+  text-decoration: none;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+.right {
+  background-color:#81b876;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+  color:whitesmoke;
+  
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+  /* Denna kodning är för tablet anpassning: */
+  @media only screen and (min-width: 600px) {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+  .menua{color:pink}
+
+}
+/*Denna är för för pc-anpassning*/
+@media only screen and (min-width: 768px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+}
+</style>
+
+
+<div style="overflow:auto">
+  <div class="menu">
+    <a href="file:///C:/Users/Admin/Documents/Frontend/projekt/index04.html">Hem</li></a>
+    <a href="file:///C:/Users/Admin/Documents/Frontend/projekt/se.html">Sökmotorn</a>
+    
+  </div>
+
+  <div class="main">
+    <h2>Sökordsanalys</h2>
+    <p>Det är viktigt att man innan man börjar bygga sin nya sajt ordentligt funderar vilken målgrupp man vänder sig till. Vilka ord eller uttryck skulle den målgruppen tänkas använda för att söka efter innehåll som du har på din sajt? Det är det som är sökordsanalys.
+            Utöver det behöver du också kunna skilja på de kategorier besökare som enbart vill hitta information om ditt ämne eller om det är besökare som vill köpa produkten du har på din hemsida.
+            <br></p>
+            <h3>Olika typer av sökningar</h3>
+            <h4>Navigationssökning: </h4>
+            - När du söker efter en specifik hemsida, exempelvis ”SL:s hemsida”.
+            <h4>Informationssökning: </h4>
+            - Du söker kunskap i ett visst ämne, ex ”hur man bakar en kaka”.
+            <h4>Transaktionssökningar: </h4>
+            - Sökningar där besökaren vill köpa något, ex ”köpa studentlitteratur online”.
+
+            </p>
+    
+  </div>
+
+  <div class="right">
+    <h2>Visste du att..</h2>
+    <p>.. Google tillhandahåller ett gratisverktyg (Keyword Planner) som gör att man kan kolla hur många som söker på ett ord eller uttryck.</p><br></br>
+    <p><a href= "https://ads.google.com/intl/sv_se/home/tools/keyword-planner/">Keyword planner</a></p>
+  </div>
+</div>
+
+<head>
+
+<script>
+function bgChange(bg) {
+  document.body.style.background = bg;
+}
+</script>
+</head>
+
+
+<body>
+
+<h3>Byt bakgrundsfärg</h3>
+<p>Håll musen över rutorna så byter bakgrunden färg!</p>
+
+<table style="width:200px;height: 50px">
+  <tr>
+    <td onmouseover="bgChange(this.style.backgroundColor)" 
+    onmouseout="bgChange('transparent')"
+    style="background-color:rgb(206, 188, 33)">
+    </td>
+    <td onmouseover="bgChange(this.style.backgroundColor)" 
+    onmouseout="bgChange('transparent')"
+    style="background-color:rgb(236, 191, 234)">
+    </td>
+    <td onmouseover="bgChange(this.style.backgroundColor)" 
+    onmouseout="bgChange('transparent')"
+    style="background-color:Silver">
+    </td>
+    <td onmouseover="bgChange(this.style.backgroundColor)" 
+    onmouseout="bgChange('transparent')"
+    style="background-color:rgb(214, 240, 190)">
+    </td>
+
+  </tr>
+</table>
+
+</body>
+
+
+<div style="background-color:#5da14cf3;text-align:center;padding:10px;margin-top:7px;">Projektarbete Frontend <mark>Simon Wildbore</mark></div>
+
+</body>
+</html>
